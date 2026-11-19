@@ -1,42 +1,106 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Home</title>
-  </head>
-  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-  <body>
-    <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-mahathrift">
-  <div class="container-fluid px-4">
-    <a class="navbar-brand text-white fw-bold" href="#">
-      <img src="img/logo.png" alt="Logo" height="40" class="me-2">
-      Mahathrift
-    </a>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Mahathrift</title>
+    <link rel="stylesheet" href="tentangkami.css">
+</head>
+<body>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="navbar">
+        <div class="navkiri">
+            <img src="img/logo.png" class="logonav" alt="Logo">
+            <span class="tekslogo">Mahathrift</span>
+        </div>
 
-    <div class="collapse navbar-collapse" id="menuUtama">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Kategori</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Tentang Kami</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Pusat Bantuan</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Iklan</a></li>
-      </ul>
+        <div class="navtengah">
+            <a href="index.html" class="linkmenu">Beranda</a>
+            <a href="kategori.html" class="linkmenu">Kategori</a>
+            <a href="tentangkami.html" class="linkmenuaktif">Tentang Kami</a>
+            <a href="pusatbantuan.html" class="linkmenu">Pusat Bantuan</a>
+            <a href="iklan.html" class="linkmenu">Iklan</a>
+        </div>
 
-      <div class="d-flex align-items-center gap-3">
-        <a href="#" class="btn btn-light btn-sm">+ Jual</a>
-        <a href="#" class="text-white text-decoration-none">Masuk</a>
-        <span class="text-white">|</span>
-        <a href="#" class="text-white text-decoration-none">Daftar</a>
-      </div>
+        <div class="navkanan">
+            <a href="#" class="tomboljual">+ Jual</a>
+            <a href="#" class="linkauth">Masuk</a>
+            <span class="pemisah">|</span>
+            <a href="#" class="linkauth">Daftar</a>
+        </div>
     </div>
-  </div>
-</nav>
-  </body>
+
+    <div class="bagianhero">
+        <div class="herokiri">
+            <h1 class="judulutama">MahaThrift</h1>
+            <p class="subjudul">Tempatnya Barang Bekas Berkualitas dari Sesama Anak kos</p>
+            <p class="deskripsihalaman">
+                Mahathrift hadir untuk mempermudah mahasiswa mencari dan menjual barang bekas yang masih layak pakai. Kami percaya bahwa barang yang tidak terpakai masih bisa memberikan manfaat bagi orang lain.
+            </p>
+            <a href="kategori.html" class="tombolkategori">Lihat Kategori</a>
+        </div>
+
+        <div class="herokanan">
+            <div class="kotakgambar"></div>
+        </div>
+    </div>
+
+    <div class="bagiankeunggulan">
+        <div class="wadahjudulkeunggulan">
+            <h2 class="judulkeunggulan">Mengapa<br>MahaThrift</h2>
+            <span class="tandatanya">?</span>
+        </div>
+
+        <div class="wadahkartu">
+            <div class="kartufitur">
+                <div class="pembungkusikon">
+                    <img src="img/ikon1.png" class="ikonfitur" alt="Ikon">
+                </div>
+                <div class="isikartu">
+                    <h3>Mudah Digunakan</h3>
+                    <p>Tampilan Simpel dan langsung ke tujuan.</p>
+                </div>
+            </div>
+
+            <div class="kartufitur">
+                <div class="pembungkusikon">
+                    <img src="img/ikon2.png" class="ikonfitur" alt="Ikon">
+                </div>
+                <div class="isikartu">
+                    <h3>Aman & Tepercaya</h3>
+                    <p>Transaksi langsung atantara penjual dan pembeli.</p>
+                </div>
+            </div>
+
+            <div class="kartufitur">
+                <div class="pembungkusikon">
+                    <img src="img/ikon3.png" class="ikonfitur" alt="Ikon">
+                </div>
+                <div class="isikartu">
+                    <h3>Harga Terjangkau</h3>
+                    <p>Barang berkualitas dengan harga lebih murah.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footeratas">
+            <div class="logofooter">Mahathrift</div>
+            <div class="sloganfooter">Barang Bekas, Peluang Baru</div>
+            <div class="wadahsosmed">
+                <img src="img/wa.png" class="ikonsosmed" alt="WA">
+                <img src="img/ig.png" class="ikonsosmed" alt="IG">
+                <img src="img/telp.png" class="ikonsosmed" alt="Telp">
+            </div>
+        </div>
+
+        <div class="garisfooter"></div>
+
+        <div class="footerbawah">
+            <p>© 2025 Mahathrift. Semua hak dilindungi.</p>
+        </div>
+    </div>
+
+</body>
+</html>
