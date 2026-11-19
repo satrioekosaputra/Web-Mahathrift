@@ -7,3 +7,5 @@ Latar Belakang Tidak semua perlengkapan kos disediakan pemiliki kos, sehingga ma
 Ekonomi: mahasiswa mendapatkan uang dari barang yang tidak terpakai dan membeli barang dengan harga murah. Peluang pendapatan platform dari kemitraan dan iklan pelaku usaha di sekitar kampus.
 Sosial: komunitas berbasis kepercayaan antar-mahasiswa dengan transaksi yang aman dan dekat di area kampus.
 Lingkungan: memperpanjang usia pakai baran dan mengurangi potensi limbah perabot maupun plastik.
+
+5W1H:
