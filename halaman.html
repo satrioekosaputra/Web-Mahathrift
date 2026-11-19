@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home - Mahathrift</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <!-- Ditambahkan navbar-dark & sticky-top agar rapi dan ikon mobile terlihat -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-mahathrift sticky-top shadow-sm">
+      <div class="container-fluid px-4 px-lg-5">
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+          <img src="img/logo1.png" alt="Logo" height="38" class="me-2 logo-img" />
+          <span>Mahathrift</span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuUtama">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 gap-lg-2">
+            <li class="nav-item"><a class="nav-link active fw-semibold" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="kategori.html">Kategori</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tentang Kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pusat Bantuan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Iklan</a></li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0 pb-2 pb-lg-0">
+            <a href="#" class="btn btn-light btn-sm fw-semibold px-3">+ Jual</a>
+            <a href="#" class="text-white text-decoration-none nav-auth-link">Masuk</a>
+            <span class="text-white-50">|</span>
+            <a href="#" class="text-white text-decoration-none nav-auth-link">Daftar</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero py-5">
+      <div class="container-fluid px-4 px-lg-5">
+        <div class="row align-items-center">
+          <!-- Kiri: Teks + Search -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h1 class="hero-title fw-bold">
+              Barang Bekas<br />
+              Masih Layak<br />
+              Harga Lebih Bersahabat
+            </h1>
+            <p class="hero-desc my-3">
+              Temukan barang bekas berkualitas dari sesama anak kos. Jual barang
+              yang tidak terpakai, atau cari yang kamu butuhkan!
+            </p>
+
+            <form class="input-group hero-search mt-4">
+              <input type="text" class="form-control" placeholder="Cari barang, contoh: kipas, buku, dll.." />
+              <button class="btn btn-kuning px-4" type="submit">
+                <img src="img/search.png" alt="Cari" height="22" />
+              </button>
+            </form>
+          </div>
+
+          <!-- Kanan: Gambar Hero -->
+          <div class="col-lg-6 text-center text-lg-end">
+            <img src="img/lemari.png" alt="Lemari laci putih" class="img-fluid hero-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION IKLAN / PROMO -->
+    <section class="iklan-section py-4">
+      <div class="container-fluid px-4 px-lg-5">
+        <div class="mb-3">
+          <h3 class="fw-bold">Solusi & Kebutuhan Anak Kos</h3>
+          <p class="text-muted">Cek layanan dan penawaran terbaik dari usaha terdekat di sekitarmu.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="banner-wrapper rounded overflow-hidden shadow-sm">
+              <img src="img/iklan1.png" alt="Iklan 1" class="banner-img" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="banner-wrapper rounded overflow-hidden shadow-sm">
+              <img src="img/iklan2.png" alt="Iklan 2" class="banner-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION REKOMENDASI BARANG -->
+    <section class="rekomendasi-section py-5">
+      <div class="container-fluid px-4 px-lg-5">
+        <div class="mb-4">
+          <h3 class="fw-bold">Rekomendasi Barang</h3>
+          <p class="text-muted">Pilih barang bekas terbaik untuk kamu. Cek sekarang sebelum kehabisan!</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Card Produk 1 -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card h-100 shadow-sm border-0 product-card">
+              <!-- Pembungkus rasio 4:3 agar semua foto produk seragam -->
+              <div class="product-img-wrapper">
+                <img src="img/laptop.png" alt="Laptop Asus Vivobook 14" class="product-img" />
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div>
+                  <span class="badge bg-secondary mb-2 text-jProduk">Elektronik</span>
+                </div>
+                <h5 class="card-title fs-6 fw-bold mb-1">Laptop Asus Vivobook 14</h5>
+                <p class="card-text text-muted small mb-3">Kondisi: Baik</p>
+                <h5 class="fw-bold text-primary mt-auto mb-0">Rp 2.500.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-4 bg-dark text-white mt-5">
+      <div class="container-fluid px-4 px-lg-5 text-center">
+        <p class="mb-0">&copy; 2026 Mahathrift. Hak Cipta Dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
