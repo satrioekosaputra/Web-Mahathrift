@@ -1,0 +1,23 @@
+:root {
+  --biru-tua: #13315C;
+  --kuning: #F5A100;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-mahathrift {
+  background-color: var(--biru-tua);
+}
+
+.navbar-mahathrift .nav-link {
+  color: #fff;
+}
+
+.navbar-mahathrift .nav-link.active {
+  background-color: #fff;
+  color: var(--biru-tua);
+  border-radius: 50px;
+  padding: 6px 16px;
+}
