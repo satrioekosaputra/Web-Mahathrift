@@ -29,3 +29,22 @@ body {
   color: var(--warna-teks);
   font-weight: 600;
 }
+
+.hero-section{
+padding: 64px 48px
+}
+
+.hero-title{
+    font-size: 40px;
+    font-weight: 800;  
+    line-height: 48px;
+    color: var(--warna-biru);
+}
+
+.hero-img-box{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 480px;
+    margin-left: auto;
+}
