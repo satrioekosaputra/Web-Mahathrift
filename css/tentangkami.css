@@ -1,0 +1,171 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    color: #122F54;
+}
+
+.navbar-mahathrift {
+    background-color: #122F54;
+    min-height: 116px;
+}
+
+.logonav {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.navbar-mahathrift .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.navbar-mahathrift .nav-link:hover,
+.navbar-mahathrift .nav-link.aktif {
+    color: #F7B648;
+    font-weight: bold;
+}
+
+.tomboljual {
+    background-color: #ffffff;
+    color: #122F54;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 16px;
+    border-radius: 6px;
+}
+
+.bagianhero {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.judulutama {
+    font-size: 56px;
+    font-weight: bold;
+    color: #122F54;
+    margin-bottom: 10px;
+}
+
+.subjudul {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.deskripsihalaman {
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 35px;
+}
+
+.tombolkategori {
+    background-color: #F7B648;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 42px;
+    border-radius: 10px;
+}
+
+.kotakgambar {
+    width: 100%;
+    max-width: 500px;
+    height: 450px;
+    background-color: #ACACAC;
+}
+
+.bagiankeunggulan {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.judulkeunggulan {
+    font-size: 44px;
+    font-weight: bold;
+    color: #122F54;
+}
+
+.tandatanya {
+    font-size: 75px;
+    font-weight: bold;
+    color: #122F54;
+    margin-left: 15px;
+}
+
+.kartufitur {
+    background-color: #F7B648;
+    height: 190px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.pembungkusikon {
+    width: 68px;
+    height: 68px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.ikonfitur {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.isikartu h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.isikartu p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer {
+    background-color: #122F54;
+    padding: 50px 0 30px 0;
+}
+
+.logofooter {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sloganfooter {
+    color: #F3DCCB;
+    font-size: 24px;
+}
+
+.ikonsosmed {
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+.garisfooter {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footerbawah {
+    color: #ffffff;
+    font-size: 13px;
+}
