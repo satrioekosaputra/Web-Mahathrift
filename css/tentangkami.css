@@ -100,3 +100,64 @@ body {
 .grup-akun a:hover {
     color: #F7B648;
 }
+
+.hero-section {
+    padding: 80px 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.hero-kiri {
+    max-width: 633px;
+}
+
+.hero-judul {
+    font-size: 64px;
+    font-weight: 700;
+    color: #122F54;
+    line-height: 1.1;
+    margin-bottom: 8px;
+}
+
+.hero-subjudul {
+    font-size: 20px;
+    font-weight: 300;
+    color: #122F54;
+    margin-bottom: 32px;
+}
+
+.hero-deskripsi {
+    font-size: 20px;
+    font-weight: 400;
+    color: #122F54;
+    line-height: 1.5;
+    max-width: 618px;
+    margin-bottom: 48px;
+}
+
+.tombol-kategori {
+    background-color: #F7B648;
+    color: #122F54;
+    width: 277px;
+    height: 72px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tombol-kategori:hover {
+    background-color: #e5a336;
+}
+
+.kotak-gambar-hero {
+    width: 523px;
+    height: 492px;
+    background-color: #ACACAC;
+}
