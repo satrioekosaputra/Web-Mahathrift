@@ -1,8 +1,31 @@
 :root {
   /* Warna */
-  --warna-biru: #122F54;      /* biru */
-  --warna-kuning: #F7B648;      /* abu-abu sangat muda */
-  --warna-putih: #ffffff;      /* putih */
-  --warna-teks: #000000;      /* hitam */
+  --warna-biru: #122F54;
+  --warna-kuning: #F7B648;
+  --warna-putih: #ffffff;
+  --warna-teks: #000000;
+  --max-width: 1440px; /* Tambahkan ini agar frame-1440 berfungsi */
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--warna-teks); /* Sebaiknya teks default body hitam, putih khusus di navbar saja */
+}
+
+.frame-1440 {
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
+
+.navbar-maha {
+  background-color: var(--warna-biru);
+  color: var(--warna-putih);
+  padding-block: 14px;
+}
+
+/* Styling tambahan untuk tombol jual agar terlihat */
+.btn-jual {
+  background-color: var(--warna-kuning);
+  color: var(--warna-teks);
+  font-weight: 600;
+}
