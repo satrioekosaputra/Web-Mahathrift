@@ -10,7 +10,6 @@ body {
     color: #122F54;
 }
 
-/* NAVBAR UTAMA */
 .navbar-utama {
     background-color: #122F54;
     height: 116px;
@@ -20,7 +19,6 @@ body {
     justify-content: space-between;
 }
 
-/* KIRI: LOGO & BRAND */
 .brand-kiri {
     display: flex;
     align-items: center;
@@ -38,7 +36,6 @@ body {
     object-fit: contain;
 }
 
-/* TENGAH: MENU NAVIGASI */
 .menu-tengah {
     list-style: none;
     display: flex;
@@ -62,7 +59,6 @@ body {
     font-weight: 600;
 }
 
-/* KANAN: TOMBOL JUAL & AKUN */
 .area-kanan {
     display: flex;
     align-items: center;
