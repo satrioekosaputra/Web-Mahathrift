@@ -36,7 +36,7 @@ body {
 }
 
 .hero{
-padding: 64px 48px
+padding: 40px 42px
 }
 
 .heroJudul{
@@ -52,4 +52,12 @@ padding: 64px 48px
     overflow: hidden;
     max-width: 480px;
     margin-left: auto;
+}
+
+.Topik{
+padding: 40px 42px
+}
+
+.judulTopik{
+color: var(--warna-biru);
 }
