@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background-color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
@@ -12,22 +6,17 @@ body {
 
 .navbar-utama {
     background-color: #122F54;
-    height: 116px;
+    min-height: 116px;
     padding: 0 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .brand-kiri {
-    display: flex;
-    align-items: center;
     gap: 16px;
-    text-decoration: none;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-size: 36px;
     font-weight: 600;
     letter-spacing: -0.5px;
+    margin-right: 0;
 }
 
 .logo-navbar {
@@ -37,31 +26,26 @@ body {
 }
 
 .menu-tengah {
-    list-style: none;
-    display: flex;
-    align-items: center;
     gap: 25px;
 }
 
-.menu-tengah a {
-    text-decoration: none;
-    color: #FFFFFF;
+.menu-tengah .nav-link {
+    color: #FFFFFF !important;
     font-size: 24px;
     font-weight: 400;
+    padding: 0 !important;
 }
 
-.menu-tengah a:hover {
-    color: #F7B648;
+.menu-tengah .nav-link:hover {
+    color: #F7B648 !important;
 }
 
-.menu-tengah a.aktif {
-    color: #FFFFFF;
+.menu-tengah .nav-link.aktif {
+    color: #FFFFFF !important;
     font-weight: 600;
 }
 
 .area-kanan {
-    display: flex;
-    align-items: center;
     gap: 16px;
 }
 
@@ -71,12 +55,9 @@ body {
     width: 90px;
     height: 39px;
     border-radius: 6px;
-    text-decoration: none;
     font-size: 14px;
     font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
 }
 
 .tombol-jual:hover {
@@ -85,8 +66,6 @@ body {
 }
 
 .grup-akun {
-    display: flex;
-    align-items: center;
     gap: 8px;
     color: #FFFFFF;
     font-size: 14px;
@@ -99,65 +78,4 @@ body {
 
 .grup-akun a:hover {
     color: #F7B648;
-}
-
-.hero-section {
-    padding: 80px 84px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    border-bottom: 1px solid #E5E7EB;
-}
-
-.hero-kiri {
-    max-width: 633px;
-}
-
-.hero-judul {
-    font-size: 64px;
-    font-weight: 700;
-    color: #122F54;
-    line-height: 1.1;
-    margin-bottom: 8px;
-}
-
-.hero-subjudul {
-    font-size: 20px;
-    font-weight: 300;
-    color: #122F54;
-    margin-bottom: 32px;
-}
-
-.hero-deskripsi {
-    font-size: 20px;
-    font-weight: 400;
-    color: #122F54;
-    line-height: 1.5;
-    max-width: 618px;
-    margin-bottom: 48px;
-}
-
-.tombol-kategori {
-    background-color: #F7B648;
-    color: #122F54;
-    width: 277px;
-    height: 72px;
-    border-radius: 15px;
-    text-decoration: none;
-    font-size: 23px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tombol-kategori:hover {
-    background-color: #e5a336;
-}
-
-.kotak-gambar-hero {
-    width: 523px;
-    height: 492px;
-    background-color: #ACACAC;
 }
