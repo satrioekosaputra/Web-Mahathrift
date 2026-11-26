@@ -1,0 +1,81 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    color: #122F54;
+}
+
+.navbar-utama {
+    background-color: #122F54;
+    min-height: 116px;
+    padding: 0 40px;
+}
+
+.brand-kiri {
+    gap: 16px;
+    color: #FFFFFF !important;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-right: 0;
+}
+
+.logo-navbar {
+    width: 50px;
+    height: 68px;
+    object-fit: contain;
+}
+
+.menu-tengah {
+    gap: 25px;
+}
+
+.menu-tengah .nav-link {
+    color: #FFFFFF !important;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0 !important;
+}
+
+.menu-tengah .nav-link:hover {
+    color: #F7B648 !important;
+}
+
+.menu-tengah .nav-link.aktif {
+    color: #FFFFFF !important;
+    font-weight: 600;
+}
+
+.area-kanan {
+    gap: 16px;
+}
+
+.tombol-jual {
+    background-color: #FFFFFF;
+    color: #122F54;
+    width: 90px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.tombol-jual:hover {
+    background-color: #F7B648;
+    color: #122F54;
+}
+
+.grup-akun {
+    gap: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.grup-akun a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.grup-akun a:hover {
+    color: #F7B648;
+}
