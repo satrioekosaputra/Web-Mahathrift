@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jual - Mahathrift</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="jual.css">
+</head>
+<body>
+    <nav class="navbar-utama">
+        <a href="index.html" class="brand-kiri">
+            <img src="img/logo.png" alt="Logo Mahathrift" class="logo-navbar">
+        </a>
+        
+        <ul class="menu-tengah">
+            <li><a href="index.html" class="aktif">Beranda</a></li>
+            <li><a href="kategori.html">Kategori</a></li>
+            <li><a href="tentangkami.html">Tentang Kami</a></li>
+            <li><a href="pusatbantuan.html">Pusat Bantuan</a></li>
+            <li><a href="iklan.html">Iklan</a></li>
+        </ul>
+
+        <div class="area-kanan">
+            <a href="#" class="tombol-jual">+ Jual</a>
+            <div class="grup-akun">
+                <a href="#">Masuk</a>
+                <span>|</span>
+                <a href="#">Daftar</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="kontainer-jual">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="#">Jual</a></li>
+            <li class="aktif-crumb">Detail Produk</li>
+        </ul>
+
+        <section class="seksi-upload">
+            <h2 class="judul-besar">Upload Foto</h2>
+
+            <div class="baris-slider">
+                <button type="button" class="panah-slider">&#9664;</button>
+
+                <div class="grid-foto">
+                    <label class="kotak-foto kotak-utama">
+                        <input type="file" accept="image/*" hidden>
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#122F54" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="5" width="15" height="15" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="10.5" r="1.5"></circle>
+                            <polyline points="18 15 14 11 5 20"></polyline>
+                            <line x1="19" y1="2" x2="19" y2="8"></line>
+                            <line x1="16" y1="5" x2="22" y2="5"></line>
+                        </svg>
+                        <span>Upload foto produk</span>
+                    </label>
+
+                    <label class="kotak-foto">
+                        <input type="file" accept="image/*" hidden>
+                        <span class="ikon-tambah">+</span>
+                    </label>
+
+                    <label class="kotak-foto">
+                        <input type="file" accept="image/*" hidden>
+                        <span class="ikon-tambah">+</span>
+                    </label>
+
+                    <label class="kotak-foto">
+                        <input type="file" accept="image/*" hidden>
+                        <span class="ikon-tambah">+</span>
+                    </label>
+                </div>
+
+                <button type="button" class="panah-slider">&#9654;</button>
+            </div>
+
+            <div class="indikator-bar">
+                <div class="bar-aktif"></div>
+            </div>
+        </section>
+
+        <section class="seksi-form">
+            <h3 class="subjudul-form">Berikan detail produk!</h3>
+
+            <form action="#" method="POST">
+                <div class="grup-input">
+                    <label for="judul">Judul</label>
+                    <input type="text" id="judul" placeholder="Berikan judul produk kamu disini">
+                </div>
+
+                <div class="baris-dua-kolom">
+                    <div class="grup-input">
+                        <label for="kategori">Kategori</label>
+                        <input type="text" id="kategori">
+                    </div>
+                    <div class="grup-input">
+                        <label for="kondisi">Kondisi</label>
+                        <input type="text" id="kondisi">
+                    </div>
+                </div>
+
+                <div class="grup-input">
+                    <label>Deskripsi</label>
+                    <table class="tabel-deskripsi">
+                        <tr>
+                            <th>Merk</th>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>Spesifikasi</th>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>Durasi Pemakaian</th>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>Minus / Catatan</th>
+                            <td><input type="text"></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="grup-input input-harga-wrap">
+                    <label for="harga">Tentukan Harga</label>
+                    <div class="kotak-harga">
+                        <span class="prefix-rp">Rp.</span>
+                        <input type="text" id="harga" placeholder="Berikan harga produk kamu disini">
+                    </div>
+                </div>
+
+                <div class="area-submit">
+                    <button type="submit" class="tombol-upload">Upload Produk</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-utama">
+        <div class="footer-atas">
+            <div class="footer-brand">Mahathrift</div>
+            <div class="footer-slogan">Barang Bekas, Peluang Baru</div>
+            <div class="footer-sosmed">
+                <a href="#" aria-label="WhatsApp">WA</a>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Telepon">TLP</a>
+            </div>
+        </div>
+        <div class="footer-bawah">
+            &copy; 2025 Mahathrift. Semua hak dilindungi.
+        </div>
+    </footer>
+
+</body>
+
+</html>

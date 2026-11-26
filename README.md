@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Web-Mahathrift
-k
-=======
 # Mahathrift
 Website jual beli barang bekas layak pakai untuk mahasiswa dan penghuni kos.
 
@@ -13,4 +9,4 @@ MahaThrift hadir dengan tiga aspek:
 1. Ekonomi: mahasiswa mendapatkan uang dari barang yang tidak terpakai dan membeli barang dengan harga murah. Peluang pendapatan platform dari kemitraan dan iklan pelaku usaha di sekitar kampus.
 2. Sosial: komunitas berbasis kepercayaan antar-mahasiswa dengan transaksi yang aman dan dekat di area kampus.
 3. Lingkungan: memperpanjang usia pakai baran dan mengurangi potensi limbah perabot maupun plastik.
->>>>>>> 75a68fcbb91184075059c83550e136db9c9c7d9f
+
