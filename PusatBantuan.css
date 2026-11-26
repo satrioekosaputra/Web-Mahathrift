@@ -4,12 +4,12 @@
   --warna-kuning: #F7B648;
   --warna-putih: #ffffff;
   --warna-teks: #000000;
-  --max-width: 1440px; /* Tambahkan ini agar frame-1440 berfungsi */
+  --max-width: 1440px; 
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: var(--warna-teks); /* Sebaiknya teks default body hitam, putih khusus di navbar saja */
+  color: var(--warna-teks); 
 }
 
 .frame-1440 {
@@ -23,18 +23,23 @@ body {
   padding-block: 14px;
 }
 
-/* Styling tambahan untuk tombol jual agar terlihat */
+.navbar-brand{
+  font-weight: 700;
+
+}
+
+
 .btn-jual {
   background-color: var(--warna-kuning);
   color: var(--warna-teks);
   font-weight: 600;
 }
 
-.hero-section{
+.hero{
 padding: 64px 48px
 }
 
-.hero-title{
+.heroJudul{
     font-size: 40px;
     font-weight: 800;  
     line-height: 48px;
