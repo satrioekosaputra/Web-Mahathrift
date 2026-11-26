@@ -112,3 +112,23 @@ display: block;
   line-height: 20px;
   color: var(--warna-biru);
 }
+
+.ContohPertanyaan{
+  padding: 56px 84px;
+}
+.Pertanyaan1 {
+  background-color: color-mix(in srgb, var(--warna-kuning) 35%, transparent);
+  height: 62px;
+}
+.TeksPertanyaan1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+  line-height: auto;
+  color: var(--warna-hitam);
+  padding: 20px 24px;
+}
+
+.Pertanyaan2 {
+  background-color: color-mix(in srgb, var(--warna-kuning) 80%, transparent);
+  height: 62px;}
