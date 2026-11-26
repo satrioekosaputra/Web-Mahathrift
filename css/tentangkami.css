@@ -79,3 +79,45 @@ body {
 .grup-akun a:hover {
     color: #F7B648;
 }
+
+.hero-judul {
+    font-size: 64px;
+    font-weight: 700;
+    color: #122F54;
+    line-height: 1.1;
+}
+
+.hero-subjudul {
+    font-size: 20px;
+    font-weight: 300;
+    color: #122F54;
+}
+
+.hero-deskripsi {
+    font-size: 20px;
+    font-weight: 400;
+    color: #122F54;
+    line-height: 1.5;
+}
+
+.tombol-kategori {
+    background-color: #F7B648;
+    color: #122F54;
+    width: 277px;
+    height: 72px;
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+}
+
+.tombol-kategori:hover {
+    background-color: #e5a336;
+    color: #122F54;
+}
+
+.kotak-gambar-hero {
+    width: 523px;
+    height: 492px;
+    background-color: #ACACAC;
+}
