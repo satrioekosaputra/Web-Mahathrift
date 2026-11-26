@@ -1,27 +1,38 @@
 :root {
-  --biru-tua: #13315C;
-  --kuning: #F5A100;
+  /* Warna */
+  --warna-biru: #122F54;
+  --warna-kuning: #F7B648;
+  --warna-putih: #ffffff;
+  --warna-teks: #000000;
+  --max-width: 1440px; 
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: var(--warna-teks); 
 }
 
-.navbar-mahathrift {
-  background-color: var(--biru-tua);
-  width: 1440px;
-  height: 80px;
+.frame-1440 {
+  max-width: var(--max-width);
+  margin-inline: auto;
 }
 
-.navbar-mahathrift .nav-link {
-  color: #fff;
+.navbar-maha {
+  background-color: var(--warna-biru);
+  color: var(--warna-putih);
+  padding-block: 14px;
 }
 
-.navbar-mahathrift .nav-link.active {
-  background-color: #fff;
-  color: var(--biru-tua);
-  border-radius: 50px;
-  padding: 6px 16px;
+.navbar-brand{
+  font-weight: 700;
+
+}
+
+
+.btn-jual {
+  background-color: var(--warna-kuning);
+  color: var(--warna-teks);
+  font-weight: 600;
 }
 
 /* ===== HERO ===== */
