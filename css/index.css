@@ -93,4 +93,9 @@ body {
   border-radius: 16px;
   object-fit: cover;
   margin-bottom: 20px;
+  padding-bottom: 2px;
+}
+
+.iklan-section {
+  margin-top: 10px;
 }
