@@ -99,3 +99,25 @@ body {
 .iklan-section {
   margin-top: 10px;
 }
+
+.produk-card {
+  baground-color: var(--warna-putih);
+  border-radius: 20px;
+  padding: 4`0px;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.produk-card:hover {
+  border: 1.5px solid var(--warna-kuning);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produk-img {
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  width: 100%;
+}
