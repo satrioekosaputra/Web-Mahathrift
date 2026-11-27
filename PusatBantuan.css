@@ -111,25 +111,34 @@ display: block;
   font-size: 16px;
   font-weight: 550;
   line-height: 20px;
-  color: var(--warna-biru);
+  color: var(--warna-hitam);
 }
 
 .ContohPertanyaan{
   padding: 56px 84px;
 }
-.Pertanyaan1 {
+.Pertanyaan1, .Pertanyaan2 {
   background-color: color-mix(in srgb, var(--warna-kuning) 35%, transparent);
   height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.TeksPertanyaan1{
+.TeksPertanyaan1, .TeksPertanyaan2, .TeksPertanyaan3 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: medium;
   line-height: auto;
   color: var(--warna-hitam);
   padding: 20px 24px;
+  margin: 0;
 }
 
 .Pertanyaan2 {
   background-color: color-mix(in srgb, var(--warna-kuning) 80%, transparent);
   height: 62px;}
+
+  .Pertanyaan1 img, .Pertanyaan2 img, .Pertanyaan3 img {
+  object-fit: contain;
+  padding-right: 24px;
+}
