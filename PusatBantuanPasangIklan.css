@@ -81,6 +81,11 @@ font-weight: semi-bold;
   padding-top: 20px;
 }
 
+.Topik a{
+  text-decoration: none;
+  color: var(--warna-teks);
+}
+
 .Kotak1{
   background-color: #F7B648;
   width: 201px;
