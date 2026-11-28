@@ -165,3 +165,11 @@ display: block;
   color: var(--warna-teks);
   box-shadow: none;
 }
+
+.footer {
+  margin-top: 40px;
+  background-color: var(--warna-biru);
+  color: var(--warna-putih);
+  padding-block: 40px;
+  text-align: center;
+}
