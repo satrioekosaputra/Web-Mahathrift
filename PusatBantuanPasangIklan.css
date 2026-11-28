@@ -149,4 +149,14 @@ display: block;
   padding-right: 24px;
 }
 
+.ContohPertanyaan .accordion-item:nth-child(odd) .accordion-button {
+  background-color: color-mix(in srgb, var(--warna-kuning) 35%, transparent);
+  color: var(--warna-teks);
+  box-shadow: none;
+}
 
+.ContohPertanyaan .accordion-item:nth-child(even) .accordion-button {
+  background-color: color-mix(in srgb, var(--warna-kuning) 80%, transparent);
+  color: var(--warna-teks);
+  box-shadow: none;
+}
